@@ -1,0 +1,2 @@
+GET /medals controllers.MedalsController.search(order: Option[String], start: Option[Int], count: Option[Int], year: Option[Int], medal: Option[String])
+GET /medals/streamed controllers.MedalsController.stream(order: Option[String], start: Option[Int], count: Option[Int], year: Option[Int], medal: Option[String])
